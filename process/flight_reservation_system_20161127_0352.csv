@@ -1,0 +1,54 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By,Owned By,Comment,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status,Task,Task Status
+3171393,"As an admin user, I would like to edit flight details so that update the latest information of the flight",as an admin user i would like to edit flight details,,,,epic,,,"Nov 26, 2016",,,,"Admin users are able to edit Flight details included the planes' information, flight schedule, the locations where the destination is set for the flight schedules and also the flight seat price.",https://www.pivotaltracker.com/epic/show/3171393,,,,,,,,,,,,,,,,,
+3171391,"As an admin user, I would like to add flight to the system so that customer has more flight to choose",as an admin user i would like to add flight details,,,,epic,,,"Nov 26, 2016",,,,"Admin users are able to add Flight details included the planes' information, flight schedule and the locations where the destination is set for the flight schedules.",https://www.pivotaltracker.com/epic/show/3171391,,," (Lim Yeat Han - Nov 26, 2016)",,,,,,,,,,,,,,
+134943867,"As customer, I want to make reservation of flight ticket by using system so that I can save my time. ","",1,"Nov 21, 2016","Nov 27, 2016",feature,2,started,"Nov 24, 2016",,,Chan Bo Yao,"-Drop down list to select departure
+-Drop down list to select date of flight
+-Drop down list to select arrival
+-Drop down list to select time of flight
+-Drop down list to select number of seats
+-Show which seats are available
+-Show total price in label
+-Reset button
+-Reserve button
+-After reserve button press, system will check for flight details, and pop out a message box ""Are you sure you want to reserve this seats?"" After pressing ""Yes"" button, system will prompt a Reservation ID to member and asked you to proceed to the counter for payment. Then, it will automatic redirect to payment page.",https://www.pivotaltracker.com/story/show/134943867,Lim Yeat Han,Liew Chuen Wai
+134943189,"As a customer, I want to login in to the system so that I can reserve flight ticket.","",1,"Nov 21, 2016","Nov 27, 2016",feature,2,started,"Nov 24, 2016",,,Chan Bo Yao,"-Require member ID
+-Require member password
+-Forget Password link
+-Submit button
+-Clear button
+-Register member link
+-After press the submit button, if the member details has been verify, it will pop out a message box  ""Login Successful"".
+-After press the clear button, all the input fields will be clear.",https://www.pivotaltracker.com/story/show/134943189,Chan Bo Yao,Liew Chuen Wai
+134943219,"As a customer, I want to have a member homepage so that I can check for my reservation details.","",1,"Nov 21, 2016","Nov 27, 2016",feature,1,started,"Nov 24, 2016",,,Chan Bo Yao,"-Reservation button
+-Show Reservation details button
+-Logout button
+-Show current date and system time",https://www.pivotaltracker.com/story/show/134943219,Liew Chuen Wai,
+134942937,"As a customer, I want to register as a member so that I can reserve flight ticket.","",1,"Nov 21, 2016","Nov 27, 2016",feature,1,started,"Nov 24, 2016",,,Chan Bo Yao,"This page require username, birthdate,email address, passport number,country, password,security question , clear button and submit button. The require fill in text box cannot be leave blank and password will be verify. Clear button will clear all the textbox to become empty and submit is to submit the details that user input. After submit successfully submit the details, the system will pop out a message box to inform customer with an auto generate member ID.",https://www.pivotaltracker.com/story/show/134942937,Chan Bo Yao,Liew Chuen Wai
+134962271,"As an admin user, I would like to add Flights to the system so that customer has more flight to choose","",1,"Nov 21, 2016","Nov 27, 2016",feature,3,started,"Nov 25, 2016",,,Lim Yeat Han,"Allow admin users to add Flights to the system by entering the codes, model and flight's date of the flight. While entering details for the flight, the flight code cannot be blank and must be unique from other flight codes. The model must be registered in the system before it is valid to be added.",https://www.pivotaltracker.com/story/show/134962271,TAN JUN YEW KELVIN,,,Provide users with a place to enter flight code,not completed,Provide users with a place to enter flight model,not completed,Provide users to enter date of flight,not completed,Provide button for users to add the flight details ,not completed
+134980523,"As an admin user, I would like to generate report so that I can check most visit customer","",,,,feature,2,unscheduled,"Nov 26, 2016",,,TAN JUN YEW KELVIN,Allow admin users to generate reports that they desired from the predefined report type. ,https://www.pivotaltracker.com/story/show/134980523,TAN JUN YEW KELVIN,,,Allow user to choose which user that has interacted with the system.,not completed,Allow user to choose the type of report to generate.,not completed
+134980463,"As an admin user, I would like to help to cancel the flight reservation so that the flight seat will update.","",,,,feature,2,unscheduled,"Nov 26, 2016",,,Liew Chuen Wai,"Allow admin users to help customer to cancel off their previous reservation whenever it is requested. During the process, it allow user to view the details to confirm on the reservation made by the customers.",https://www.pivotaltracker.com/story/show/134980463,Kok Wai,Lim Yeat Han,,Allow user to enter the flight reservation code.,not completed,Allow user to view the details of the reservation,not completed,Provide button for user to cancel the reservation,not completed
+134980397,"As an admin user, I would like to edit the flight details so that update the latest information of the flight","",,,,feature,2,unscheduled,"Nov 26, 2016",,,Lim Yeat Han,"Whenever the users would want to edit the details of the flight, this module would provide all the details of the flight that the user would desire to edit and allow editing and saving the changes made.",https://www.pivotaltracker.com/story/show/134980397,Liew Chuen Wai,,,Allow user to enter the flight code.,not completed,Provide user with a button to view the details of the flight entered.,not completed,Provide button to edit the details of the flight.,not completed,Provide a button for user to save the changes made to the details.,not completed
+134980097,"As an admin users, I would like to add the flight schedule so that customers have more time to select","",,,,feature,3,unscheduled,"Nov 26, 2016",,,Lim Yeat Han,"This module allow users to add flights' schedule manually. It provide users to enter details for the flights' schedules such as schedule code, flights date, departure time, destination arrival time, flight code to determine which flights and the location code to where is the flight going to.",https://www.pivotaltracker.com/story/show/134980097,Kok Wai,TAN JUN YEW KELVIN,,Provide a place for admin to enter the schedule code.,not completed,Provide users to enter the schedule date for the flights.,not completed,Allow users to enter departure time.,not completed,Allow users to enter arrival time,not completed,Provide users to enter the fight code to determine which flights is going for this schedule.,not completed,All users to enter the location code to know where the is the flights going to.,not completed,Provide button for users to add the schedul,not completed
+134954677,"As an admin, i would like to login to the system so that I can add flight details","",,,,feature,2,unscheduled,"Nov 25, 2016",,,Chan Bo Yao,The admin users would gain access to the system by providing specific ID and Password. The ID given to the admin users was predefined by the system which each ID has a format of Sxxxxxx where the x represents numbers and password is set by the uses themselves.,https://www.pivotaltracker.com/story/show/134954677,Chan Bo Yao,Lim Yeat Han,,Provide a login page for the admin users.,not completed,Verify admin users' ID where its predefined with the format of Sxxxxxx,not completed,Verify password set by admin users,not completed,Provide login button,not completed,Provide retrieve password button,not completed
+134944245,"As a customer, I want to view my reservation details so that I can check my flight details.","",,,,feature,2,unscheduled,"Nov 24, 2016",,,Chan Bo Yao,"-Drop down list to select flight reservation code
+-Automatic display destination, departure, date, departure time, arrival time, seats reserved and total price.",https://www.pivotaltracker.com/story/show/134944245,Kok Wai,
+134944121,"As a customer, I want to make payment of my flight ticket by using the system so that I can save time ","",,,,feature,2,unscheduled,"Nov 24, 2016",,,Chan Bo Yao,"-Require reservation ID
+-Auto display total amount after verify reservation ID
+-2 types of payment 
+-Radio button credit card
+-Radio button cash
+-Cancel Reservation button
+-After select type of payment, will let user choose payment method by using drop down list.
+-After select payment method, customer require to enter card number, expiration date and security code.
+-A ""?"" link to allow user to know what is a security code.
+-Reset button to clear all the fields enter
+-Submit to make payment 
+-After press submit button, will ask user ""Are you sure you want to pay?"" and user choose ""Yes"" and pop out ""Payment Successful""",https://www.pivotaltracker.com/story/show/134944121,Kok Wai,
+134943135,"As a customer, I want to retrieve back my Member ID so that I can login into the system.","",,,,feature,1,unscheduled,"Nov 24, 2016",,,Chan Bo Yao,"-Pop out a message box  ""Please go to counter to retrieve your member details"" .",https://www.pivotaltracker.com/story/show/134943135,Chan Bo Yao,
+134943095,"As a customer, I want to recover back my password so that I can login into the system.","",,,,feature,2,unscheduled,"Nov 24, 2016",,,Chan Bo Yao,"-Require member ID
+-Show security question
+-Require security answer
+-Submit button to get back password
+-Clear button to clear all the fields
+-Forget ID or Security Answer
+-After the user input the correct secret answer, the system will display a message box to inform user his password.",https://www.pivotaltracker.com/story/show/134943095,Chan Bo Yao,
